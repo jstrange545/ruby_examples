@@ -13,4 +13,5 @@ export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 ```
 * the important part of this .zshrc is the eval "$(rbenv init - zsh)" and the rbenv shell 3.1.2
 * you need both to set your ruby environment
-* https://github.com/rbenv/rbenv
+* https://github.com/rbenv/rbenv has instructions on downloading a version of ruby
+* once you have your version of ruby set up it is as easy as typing `ruby person.rb` to run a file in ruby! Enjoy!
