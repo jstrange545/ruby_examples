@@ -1,4 +1,4 @@
-#require person_revisted.rb
+#require ./person_revisted
 j = Person.new("John")
 p = Person.new("Paul")
 g = Person.new("George")
