@@ -13,6 +13,7 @@ class Person
     def has_friend(friend)
         @friends << friend
     end
+    #method missing defined here, if a method isn't defined in class it looks for it
     def Person.method_missing(m, *args)
         method = m.to_s
         if method.start_with?("all_with_")
